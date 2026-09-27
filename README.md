@@ -1,5 +1,11 @@
 # SENTINEL 26
 
+UNSW-NB15 ağ akışlarında anomali tespitini etiketli bir modelle karşılaştıran, eşik ve yanlış alarm dengesini etkileşimli gösteren araştırma demosu.
+
+**[Canlı demoyu aç](https://sentinel-26-siber-anomali.streamlit.app/)** · **[Kısa proje taslağı](PROJE_TASLAGI.md)** · **[Ölçüm çıktısı](artifacts/metrics.json)**
+
+**Öne çıkanlar:** Akış simülasyonu, Isolation Forest ve Random Forest karşılaştırması, CSV puanlama, doğrulanabilir veri ayrımı. Etiketlenmiş test kümesinde `%2` yanlış alarm eşiğinde etiketsiz modelin saldırı recall'u `%7,4`; bu sınır aşağıda açıkça tartışılıyor.
+
 ## Çevrimiçi yayın
 
 **Canlı demo:** https://sentinel-26-siber-anomali.streamlit.app/  
