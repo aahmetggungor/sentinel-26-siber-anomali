@@ -2,6 +2,9 @@
 
 ## Çevrimiçi yayın
 
+**Canlı demo:** https://sentinel-26-siber-anomali.streamlit.app/  
+**Kaynak kod:** https://github.com/aahmetggungor/sentinel-26-siber-anomali
+
 Streamlit Community Cloud için giriş dosyası `app.py`, Python sürümü 3.12'dir. Gerekli eğitim çıktıları (`artifacts/isolation_forest.joblib`, `artifacts/test_scored.parquet`, `artifacts/metrics.json`) depoda bulunur; sunucu açılırken eğitim yeniden çalıştırılmaz. Çevrimiçi demoda alarm kayıtları ziyaretçi oturumunda tutulur. Yüklenen CSV sunucuda işlenir; gerçek ağ kayıtları veya gizli veri yüklemeyin.
 
 SAYZEK PDF'inin 26. konusu için hazırlanmış, tek bilgisayarda çalışan ağ akışı anomalisi ve alarm demosu. Ayrıntılı amaç, mimari, ölçümler ve tez planı için [PROJE_TASLAGI.md](PROJE_TASLAGI.md); temel kavramlar için [KAVRAMLAR.md](KAVRAMLAR.md) dosyasını açın.

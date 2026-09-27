@@ -300,7 +300,7 @@ with data_tab:
     d.metric("Model girdisi", len(bundle.columns))
     st.caption("Kaynak: UNSW-NB15 yayımlanmış eğitim/test CSV ayrımı. Tam paket akışı (PCAP) değil, "
                "önceden çıkarılmış ağ akışı özellikleri kullanılır.")
-    st.markdown("**Yerel alarm logu**")
+    st.markdown("**Bu oturumun alarm logu**" if public_demo else "**Yerel alarm logu**")
     if public_demo:
         st.caption("Bu oturumun alarm kayıtları sunucuya dosya olarak yazılmaz.")
         demo_alerts = st.session_state.get("demo_alerts", [])
